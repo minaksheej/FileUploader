@@ -44,6 +44,15 @@
 			<scope>test</scope>
 		</dependency>
 
+<<<<<<< HEAD
+=======
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>5.3</version>
+		</dependency>
+		
+>>>>>>> be345c27d90e88173b426c2b22fcf29f9496d10f
 	</dependencies>
 
 	<build>
