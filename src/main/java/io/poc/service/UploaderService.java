@@ -24,6 +24,7 @@ public class UploaderService implements IUploaderService {
     @Override
     public ResponseEntity<List<Employee>> uploadFile(MultipartFile file) {
         List<Employee> employees = convertToModel(file,Employee.class);
+        //return the employee object
         return new ResponseEntity<>(employees, HttpStatus.OK);
     }
 
